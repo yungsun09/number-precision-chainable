@@ -222,7 +222,7 @@ class NP {
   // 四舍五入
   round(ratio) {
     var base = Math.pow(10, ratio);
-    return new NP(this.anotherDivide(Math.round(this.anotherTimes(this.value, base)), base));
+    return new NP(this.anotherDivide(Math.round(this.anotherTimes(this.value, base)), base).valueOf());
   }
   // 返回值用方法
   valueOf() {
