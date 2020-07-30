@@ -48,7 +48,7 @@ np.init(0.105).round(2).valueOf();               // = 0.11, not 0.1
 const NP = require('./testClass')
 
 const np = new NP()
-// you can write like this
+// you can code like this
 np.init(12).plus(22,33,44).times(10,10,10).plus(1,10,100).divide(100,10).round(1).plus(0.5).round(0).divide(1000000).valueOf() // = 0.000112
 // also
 np.init(np.init(12).plus(22,33,44)).plus(np.init(11).plus(22,33,44).divide(10)).valueOf(); // = 122 (话说真的有人看得懂这种吗。。。。。)
